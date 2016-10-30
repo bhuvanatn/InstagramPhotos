@@ -1,0 +1,12 @@
+<div ng-controller="GalleryCtrl">
+	<h1>{{fullname}}</h1>
+	<img class="imageRound" ng-src="{{profileimage}}" alt="">
+<br /> <br />
+<div class="col-md-4" ng-repeat="img in images">
+	<img  class="imgsize" ng-src={{img.images.low_resolution.url}} alt="">
+</div>
+
+
+
+
+</div>
