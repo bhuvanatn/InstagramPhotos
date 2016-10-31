@@ -1,4 +1,4 @@
-var app = angular.module('galPhoto',['ngRoute', 'ngResource']);
+var app = angular.module('galPhoto',['ngRoute', 'ngResource', 'bootstrapLightbox']);
 
 app.config(['$routeProvider', function($routeProvider){
 	$routeProvider.
